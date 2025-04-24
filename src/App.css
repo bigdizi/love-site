@@ -56,3 +56,55 @@ nav button:hover {
   padding: 10px 15px;
   border-radius: 12px;
 }
+.game-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.quiz-container, .date-guess-container, .puzzle-container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option-btn.selected {
+  transform: scale(1.02);
+}
+
+.option-btn.correct {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.memory-photo {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.puzzle-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.game-results {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+}
